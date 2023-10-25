@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: rgb(30,39,130);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.git_labor_icsoport.HelloController">
+    <children>
+        <AnchorPane layoutY="59.0" prefHeight="343.0" prefWidth="700.0" style="-fx-background-color: white;">
+            <children>
+                <TextField fx:id="LoginField" layoutX="242.0" layoutY="96.0" prefHeight="38.0" prefWidth="217.0" promptText="Felhasználónév" style="-fx-border-color: silver; -fx-border-radius: 5;">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="AuthorizationLabel" layoutX="269.0" layoutY="40.0" prefHeight="38.0" prefWidth="163.0" text="Bejelentkezés" textAlignment="CENTER" textFill="#756f6f">
+                    <font>
+                        <Font name="Impact" size="28.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="PasswordField" layoutX="242.0" layoutY="165.0" prefHeight="38.0" prefWidth="217.0" promptText="Jelszó" style="-fx-border-color: silver; -fx-border-radius: 5;" />
+                <Button fx:id="SigninButton" contentDisplay="TOP" layoutX="311.0" layoutY="231.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="79.0" style="-fx-background-color: orange;" text="Belépés" textAlignment="CENTER" textFill="#f5f5f5">
+                    <font>
+                        <Font name="Sitka Text Bold Italic" size="14.0" />
+                    </font>
+                    <effect>
+                        <Lighting diffuseConstant="1.51" specularConstant="0.54" specularExponent="25.12" surfaceScale="1.4">
+                            <bumpInput>
+                                <Shadow />
+                            </bumpInput>
+                        </Lighting>
+                    </effect>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Label fx:id="message" alignment="CENTER" contentDisplay="CENTER" layoutX="175.0" layoutY="286.0" prefHeight="17.0" prefWidth="351.0" style="-fx-background-color: INHERIT;" textAlignment="CENTER" textFill="#f50707" AnchorPane.leftAnchor="175.0" />
+            </children>
+        </AnchorPane>
+        <Label fx:id="itprogerLabel" layoutX="287.0" layoutY="14.0" prefHeight="45.0" prefWidth="126.0" text="itproger" textAlignment="RIGHT" textFill="WHITE">
+            <font>
+                <Font name="Impact" size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="SignupButton" contentDisplay="TOP" layoutX="506.0" layoutY="14.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="187.0" style="-fx-background-color: orange;" text="Regisztráció" textFill="#f5f5f5">
+            <font>
+                <Font name="Sitka Text Bold Italic" size="14.0" />
+            </font>
+            <effect>
+                <Lighting diffuseConstant="1.51" specularConstant="0.54" specularExponent="25.12" surfaceScale="1.4">
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+
+                </Lighting>
+            </effect>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+    </children>
+</AnchorPane>
