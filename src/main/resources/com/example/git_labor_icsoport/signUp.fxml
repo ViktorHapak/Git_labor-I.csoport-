@@ -21,7 +21,7 @@
                     </font>
                 </TextField>
                 <PasswordField fx:id="signupPassword" layoutX="390.0" layoutY="90.0" prefHeight="38.0" prefWidth="217.0" promptText="Jelszó" style="-fx-border-color: silver; -fx-border-radius: 5;" />
-                <Button fx:id="signupButton" contentDisplay="TOP" layoutX="259.0" layoutY="291.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="182.0" style="-fx-background-color: orange;" text="Создать аккаунт" textAlignment="CENTER" textFill="#f5f5f5">
+                <Button fx:id="signupButton" contentDisplay="TOP" layoutX="259.0" layoutY="291.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="182.0" style="-fx-background-color: orange;" text="Regisztráció" textAlignment="CENTER" textFill="#f5f5f5">
                     <font>
                         <Font name="Sitka Text Bold Italic" size="14.0" />
                     </font>

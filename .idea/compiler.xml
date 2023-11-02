@@ -9,8 +9,5 @@
         <module name="GIT_labor_Icsoport" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="GIT_labor_Icsoport" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

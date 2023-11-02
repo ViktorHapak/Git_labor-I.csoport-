@@ -16,7 +16,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
-        primaryStage.setTitle("Application");
+        primaryStage.setTitle("Osztálynapló");
         primaryStage.setScene(new Scene(root,700,400));
         primaryStage.setResizable(false);
         primaryStage.show();
